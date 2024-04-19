@@ -86,13 +86,13 @@ const DisplayReservation = ({ reservation, loadDashboard }) => {
                             </Link>
                         </div>
                         <div className="mb-2 ml-1 w-100">
-                            <a href={`/reservations/${reservation.reservation_id}/seat`}>
+                            <Link to={`/reservations/${reservation.reservation_id}/seat`}>
                                 <button
                                     className="btn btn-xs btn-dark btn-outline-light w-100"
                                     type="button"
                                     name="Seat"
                                 >Seat</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div>
